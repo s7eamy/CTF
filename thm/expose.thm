@@ -1,0 +1,5 @@
+port 1337 has webserver
+/file1010111/index.php password easytohack
+there is lfi vulnerability. we find that user is zeamkish.
+/upload-cv00101011/index.php contains RFI vulnerability with easy to bypass client side filter.
+upon receiving a basic rev shell we find ssh creds for zeamkish user. password is easytohack@123
